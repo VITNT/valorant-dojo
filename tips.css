@@ -1,0 +1,26 @@
+.combos-title {
+  margin: 100px 100px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 32px;
+}
+
+.combos-container {
+  margin: 100px 100px;
+}
+
+.map-title {
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.combos-agents {
+  margin-left: 50px;
+}
+
+.combos-agents li{
+  margin-bottom: 12px;
+}

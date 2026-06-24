@@ -1,0 +1,87 @@
+.agent-tierlist {
+  margin: 100px 100px;
+}
+
+/* left side of the tier list (tiers) */
+.tier {
+  display: flex;
+}
+
+.tier-label {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+/* right side of tierlist (agents) */
+
+.tier-agents {
+  display: flex;
+  flex-wrap: wrap;    
+  flex: 1;
+  gap: 16px;
+  padding: 16px;
+  background-color: black;
+}
+
+.agent {
+  background-color: #FF4655;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.tier-label.s { 
+  background-color: #FF4655; 
+}
+
+.tier-label.a { 
+  background-color: #ffc080; 
+}
+
+.tier-label.b { 
+  background-color: #feff7f; 
+}
+
+.tier-label.c { 
+  background-color: #7fff7f; 
+}
+
+.tier-label.d { 
+  background-color: #80ffff; 
+}
+
+.tier-label.f { 
+  background-color: #807fff; 
+}
+
+.agent-link {
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 100px 100px;
+  font-size: 32px;
+}
+
+.agent-link a{
+  text-decoration: none;
+  color: black;
+}
+
+.agent-link a:hover{
+  color: #FF4655;
+}
